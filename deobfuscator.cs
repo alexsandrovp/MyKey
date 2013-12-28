@@ -8,7 +8,7 @@ namespace MyKey
 {
     class deobfuscator
     {
-        public static string getSerial(string from = @"SOFTWARE\Microsoft\Windows NT\CurrentVersion", string valueName = "DigitalProductId")
+        public static string getKey(string from = @"SOFTWARE\Microsoft\Windows NT\CurrentVersion", string valueName = "DigitalProductId")
         {
             RegistryKey hive = null;
             RegistryKey key = null;

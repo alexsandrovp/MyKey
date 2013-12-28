@@ -13,7 +13,7 @@ namespace MyKey
         public Form1()
         {
             InitializeComponent();
-            this.textBox1.Text = deobfuscator.getSerial();
+            this.textBox1.Text = deobfuscator.getKey();
         }
     }
 }
